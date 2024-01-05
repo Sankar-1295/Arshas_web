@@ -1,0 +1,487 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+    /* Navbar */
+
+#navbar{
+    background-color: rgb(55, 81, 126);
+   
+}
+#navbar li a:hover{
+    color: whitesmoke;
+}
+#navbar .logo{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+    /* Content */
+
+#cont{
+    background-color: rgb(55, 81, 126);
+    width: 100%;
+}
+#cont h2{
+   font-size:38px;
+   font-weight: 600;
+   
+}
+#cont p{
+    font-size: 18px;
+    color: whitesmoke;
+}
+#cont img{
+    width: 400px;
+    height: 400px;
+}
+
+     /* Brand */
+
+#brand img{
+    height: 50px;
+    width: 80px;
+    filter: grayscale();
+}
+#brand img:hover{
+    filter: none;
+    transform: scale(1.1);
+}
+
+          /* About */
+
+#about-sect h2{
+    font-weight:900;
+    color: rgb(55, 81, 126);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 100px;
+    
+}
+#about-sect{
+  text-align: justify; 
+}
+
+        /* Accordion */
+
+#accord{
+    background-color:#f3f5fa;
+    width: 100%; 
+}
+#accord h3{
+    color: rgb(55, 81, 126);
+}
+#accord .titel{
+    color: black;
+    font-weight: 600;
+}
+#accord .accordion-button:hover span{
+    color: #47b2e4;
+}
+#accord .accordion-button:focus {
+    box-shadow: none;
+}   
+#accord p{
+text-align: justify;
+}
+#accord .card{
+    background-color:white;
+}
+
+     /* Progress */
+
+#progress .progress-bar{
+    background-color: rgb(55, 81, 126);
+}
+#progress h3{
+    font-weight: 700;
+    font-size: 30px;
+    color:#37517e;
+}
+#progress p{
+    font-style: italic;
+}
+#progress span{
+    color:#37517e;
+    font-weight: 600;
+    text-align: justify;
+}
+
+        /* Service */
+
+#service-sect{
+    background-color:#f3f5fa;
+    width: 100%;
+}
+#service-sect h2{
+    font-weight:900;
+    color: rgb(55, 81, 126);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 100px !important;
+}
+#service-sect h4{
+    color: rgb(55, 81, 126);
+    font-weight: 600;
+}
+#service-sect .icon{
+    color: #47b2e4;
+    font-size: 36px;
+    transition: 0.3s;
+    margin-left: 12px;
+}
+#service-sect .card p{
+ text-align: justify;
+}    
+
+    /* Call to action */
+
+#call{
+    background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url(assets/images/building.jpg) fixed center center;
+    background-size: cover;
+}
+#call h2{
+    font-weight:600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#call a:hover{
+    background-color: #47b2e4;
+    color: white;
+}
+#portfolio-sect h2{
+    color: rgb(55, 81, 126);
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 100px !important;
+}
+
+       /* Team */
+
+#team-sect h2{
+    color: rgb(55, 81, 126);
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 100px !important;
+}
+#team-sect{
+    background-color:#f3f5fa;
+    width: 100%; 
+}
+#team-sect .card h4{
+    color: #37517e;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+#team-sect img{
+    width: 200px;
+    height: 200px;
+}
+#team-sect a i{
+    font-size: 20px;
+    color: #37517e;
+}
+#team-sect a:hover{
+    background-color: #47b2e4;
+}
+#team-sect a:hover i{
+    color: white;
+}
+
+      /* Pricing */
+
+#price h2{
+    color: rgb(55, 81, 126);
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+#price h5,h4{
+    color: rgb(55, 81, 126);
+    font-weight: 600;
+}
+#price h4 span{
+    color: rgb(55, 81, 126);
+    font-weight: 600;
+    font-size: 50px;
+}
+#price a:hover{
+    color: white;
+}
+
+       /* Question */
+
+#question h2{
+    color: rgb(55, 81, 126);
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#question{
+    background-color:#f3f5fa;
+    width: 100%; 
+}
+#question span{
+    color: #37517e;
+    font-weight: 600;
+}
+#question  .accordion-button:hover span{
+    color: #47b2e4;
+}
+#question .accordion-button:focus {
+    box-shadow: none;
+}    
+
+
+       /* Contact */
+
+#contact-sect h2{
+    color: rgb(55, 81, 126);
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 100px !important;
+}
+#contact-sect .butn{
+    text-align: center;
+  }
+ #contact-sect .card{
+  height: 520px;
+ }
+ #contact-sect iframe{
+  height: 250px;
+ }
+
+       /* News Letter */
+
+ #newsletter{
+    background-color: #f3f5fa;
+   }
+    #newsletter h4{
+      color: rgb(55, 81, 126); 
+      font-weight: 700;
+   }
+   #footer h5,h3{
+    color: rgb(55, 81, 126);
+    font-weight: 700;
+   }
+   #footer a:hover i{
+    color: white;
+   }
+
+     /* Copy right */
+
+  .copy{
+      padding-top: 30px;
+      padding-bottom: 30px;
+      color: #fff;
+      background-color:  rgb(55, 81, 126);
+   
+   }
+
+@media only screen and (min-width:320px) and (max-width:768px){
+    #cont h2{
+        font-size:25px; 
+        text-align: center; 
+     }
+     #cont p{
+         font-size: 15px;
+         text-align: center;
+     }
+     #cont .bton{
+        text-align: center;
+    }
+    #cont .btn , a{
+        font-size: 12px !important;
+    }
+    #cont img{
+        width: 350px;
+        height: 350px;
+    }
+   #brand img{
+    padding-top: 10px;
+   }
+   #about-sect h2{
+    font-size: 20px;
+   }
+   #about-sect p, .btn{
+    font-size: 12px;
+   }
+   #accord h3{
+    font-size: 15px;
+   }
+   #accord p,span{
+    font-size: 12px;
+   }
+   #accord img{
+    width: 400px;
+    margin-top: 20px !important;
+   }
+   #progress img{
+    width: 400px;
+    margin-top: 20px !important;
+   }
+   #progress h3{
+    font-size: 15px;
+   }
+   #progress p, span{
+    font-size: 12px;
+  }
+  #service-sect h2{
+    font-size: 20px;
+   }
+  #service-sect h4{
+    font-size: 15px;
+  }
+  #service-sect p{
+    font-size: 12px;
+    text-align: justify !important;
+  }
+  
+  #portfolio-sect h2{
+    font-size: 20px;
+  }
+  #portfolio-sect p{
+    font-size: 12px;
+  }
+  #team-sect h2{
+    font-size: 20px;
+   }
+   #team-sect h4{
+    font-size: 15px;
+    text-align: center;
+   }
+   #team-sect p{
+    font-size: 12px;
+    text-align: justify !important;
+   }
+   #team-sect .card p{
+    font-size: 12px;
+    text-align: center !important;
+   }
+   #team-sect .tmicon{
+    text-align: center;
+    font-size: 10px;
+   }
+   #price h2,h4{
+    font-size: 20px;
+  }
+  #price h4 span{
+    font-size: 30px;
+  }
+  #price p{
+    font-size: 12px;
+    text-align: justify !important;
+  }
+  #price a {
+    font-size: 12px !important;
+  }
+ 
+  #question h2{
+    font-size: 18px;
+  }
+  #question p,span,i{
+    font-size: 12px;
+    text-align: justify !important;
+  }
+  #contact-sect h2{
+    font-size: 20px;
+  }
+  #contact-sect p{
+    font-size: 12px;
+    text-align: justify !important;
+  }
+  #newsletter h4{
+    font-size: 18px;
+   
+  }
+  #newsletter p,.btn{
+    font-size: 13px;
+  }
+ #footer h3{
+    font-size: 20px;
+ }
+  #footer h5{
+    font-size: 16px;
+  }
+ 
+  #footer p, span{
+    font-size: 12px !important;
+  }
+  #footer i{
+    font-size: 10px !important;
+  }
+  .cop{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+  }
+}
+
+@media only screen and (min-width:320px) and (max-width:992px){
+    #progress h3{
+    margin-top: 50px;
+    }
+    #service-sect .card{
+        margin-top: 10px;
+    }
+    #call h2{
+        font-size: 15px;
+        text-align: center;
+    }
+    #call p{
+        font-size: 13px;
+        text-align: center;
+        text-align: justify;
+    }
+    #call .btn{
+        font-size: 13px !important;
+    }
+    #call .bton2{
+        text-align: center;
+    }  
+    #portfolio-sect p{
+     text-align: justify !important;
+    }  
+    #web-img img{
+        margin-top: 20px !important;
+    }
+    #contact-sect h5{
+        font-size: 15px;
+      }
+      #contact-sect p{
+        font-size: 12px;
+      }
+    
+}
+
+
+/* Media Query for Animation image of content section  */
+
+@media only screen and (min-width:992px) and (max-width:2000px){
+
+    
+    #cont img{
+        width: 400px;
+        height: 400px;
+        position: absolute;
+        animation: upDownAnimation 2s ease-in-out infinite;
+       
+    }
+    
+    
+    #cont .container-fluid {
+        position: relative;
+    }
+    
+    
+    @keyframes upDownAnimation {
+        0%, 100% {
+            transform: translateY(0);
+        }
+        50% {
+            transform: translateY(20px); 
+        }
+    }
+}
